@@ -1,11 +1,8 @@
 import datetime
-import json
 
-from django.contrib.auth.models import User
 from django.http import HttpResponseForbidden
 from django.shortcuts import get_object_or_404
 from rest_framework import viewsets
-from rest_framework.authtoken.models import Token
 from rest_framework.decorators import permission_classes, api_view
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
