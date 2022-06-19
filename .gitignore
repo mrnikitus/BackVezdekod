@@ -1,0 +1,6 @@
+.idea/
+env
+config.py
+memes/db.sqlite3
+memes/db.cnf
+memes/srv.py
